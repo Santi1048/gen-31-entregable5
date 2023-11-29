@@ -1,5 +1,5 @@
 import { useRef } from "react"
-import { setTrainerName } from "../store/slices/TrainerName.slice"
+import { setTrainerName } from "../store/slices/trainerName.slice"
 import { useDispatch } from "react-redux"
 import { useNavigate } from "react-router-dom"
 import './styles/HomePage.css'
