@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+* {
+    margin: 1px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.pokedex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokedex-welcome {
+    font-family: verdana;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin: 25px 50px 75px 100px;
+}
+
+.span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,;
+    font-size: 70px;
+    font-weight: lighter;
+    color: rgb(255, 0, 0);
+    margin: 25px 50px 75px 100px;
+}
+
+.search-section {
+    display: flex;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    padding: 15px;
+    border: 3px solid #d90707;
+    border-radius: 12px 0 0 5px;
+    outline: none;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: #d30d0d;
+    color: #fff;
+    border: 1px solid #ff0202;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+}
+

@@ -1,0 +1,74 @@
+.pokedex__container {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        margin-top: 100%;
+      }
+      
+.pokedex__container {
+        max-width: 600px; 
+        width: 100%;
+        padding: 20px;
+        border: 1px solid #000000;
+        border-radius: 5px;
+      }
+      
+}
+
+.pokedex__title {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #ff0202; 
+    padding: 10px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+
+  .greeting {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: rgb(69, 95, 95);
+    font-size: 24px; 
+    margin-top: 20px; 
+  }
+ 
+  .instructions {
+    font-family: 'Arial', sans-serif;
+    color: #3f3535; 
+    font-size: 16px; 
+    margin-top: 10px; 
+    text-align: center;
+  }
+  
+  .name-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .trainer-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .catch-btn {
+    background-color: #7f0000;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .catch-btn:hover {
+    background-color: #840202;
+  }
+  
